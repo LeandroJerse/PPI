@@ -1,0 +1,160 @@
+
+*{
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #9ac1f0;
+    text-align: center;
+}
+
+
+
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.container-navegacao{
+    text-align: center;
+    background-color: #f6c445;
+    padding: 50px;
+    border: 1px solid;
+}
+
+.container-navegacao a{
+
+
+    font-size: 1.5em;
+    margin: 0px 50px ;
+    text-decoration: none;
+    color: white;
+
+    
+
+}
+
+.container-navegacao a:hover{
+
+    color: #e45f2b;
+}
+
+
+.container-trabalhos{
+
+    background-color: #e45f2b;
+    overflow: auto;
+
+    
+
+}
+
+.container-trabalhos article{
+
+    width: 50%;
+    margin: auto;
+    float: center;
+    
+
+
+
+}
+
+.container-trabalhos .trabalhos{
+    background-color: #a0e548;
+    float: center;
+    margin: 50px auto;
+    width: 40%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.container-trabalhos .trabalhos a{
+    font-size: 2em;
+    text-decoration: none;
+    background-color: #000000;
+    color:#ffffff;
+    text-decoration: none;
+    min-width: 500px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+
+.container-trabalhos .trabalhos a:hover{
+    text-decoration: none;
+    
+    background-color: #9ac1f0;
+    color:#72fa93;
+    text-decoration: none;
+    min-width: 500px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+.container-trabalhos p{
+    font-size: 1.5em;
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+.container-footer{
+    text-align: center;
+    background-color:#a0e548;
+    padding: 20px;  
+    color: white;
+    overflow: auto;
+
+}
+
+
+.container-contato{
+    background-color: #e45f2b;
+    padding: 80px;
+    float: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.container-contato section{
+
+    background-color: #a0e548;
+    float: center;
+    margin: 50px auto;
+    width: 70%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+.container-contato h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.container-contato img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container-contato a{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color:white;
+    
+}
+.container-contato a:hover{
+    color: #e45f2b;
+}
+
