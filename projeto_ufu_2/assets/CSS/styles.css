@@ -1,0 +1,97 @@
+body {
+  background-color: #000;
+}
+
+section {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+
+main {
+  float: center;
+  margin: 60px auto;
+  background-color: #304145;
+  width: 80%;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+main > p {
+  font-size: 1.5em;
+  text-align: center;
+  float: center;
+  margin: 10px auto;
+  background-color: #fff;
+  width: 80%;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: #bd3147;
+}
+
+h2 {
+  float: center;
+  margin: 60px auto;
+  background-color: #fff;
+  width: 50%;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: #bd3147;
+}
+
+.container-navegacao {
+  text-align: center;
+  padding: 20px;
+  background-color: #bac7ce;
+}
+.container-navegacao a {
+  font-size: 1.5em;
+  margin: 0px 50px;
+  text-decoration: none;
+  color: #000;
+}
+.container-navegacao a:hover {
+  color: #bd3147;
+  font-weight: bolder;
+
+}
+
+.container-cabecalho {
+  text-align: center;
+  padding: 20px;
+  background-color: #bd3147;
+}
+.container-cabecalho h1 {
+  font-weight: 600;
+  font-size: 3em;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#Mission {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: #000;
+}
+
+#Mission + p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+footer {
+  text-align: center;
+  background-color: #bd3147;
+  padding: 20px;
+  color: white;
+  overflow: auto;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 10px;
+}
