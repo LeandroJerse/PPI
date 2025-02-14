@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
-    <link rel="stylesheet" href="assets/CSS/styles.css" />
+    <link rel="stylesheet" href="assets/CSS/styles.css" >
   </head>
   <body>
-    <section>
+    <main>
 
     <header>
         <h1>Clínica ABC Health</h1>
@@ -15,12 +15,12 @@
 
     <nav class = "container-navegacao">
         
-          <a href="index.html">Home</a></li>
-          <a href="galeria.html">Galeria</a></li>
-          <a href="cadastro.html">Cadastro</a></li>
+          <a href="index.html">Home</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="cadastro.html">Cadastro</a>
       
       </nav>
-    <main>
+    <section>
     <form action="cadastraCliente.php" method="post">
     
     
@@ -29,27 +29,27 @@
             <legend>Informações básicas</legend>
       <div class="container-field">
         <label for="nome_usuario">Nome:</label>
-        <input type="text" id="nome_usuario" name="nome" />
+        <input type="text" id="nome_usuario" name="nome" >
       </div>
       <div class="container-field">
         <label for="email_usuario">Email:</label>
-        <input type="email" id="email_usuario" name="email" />
+        <input type="email" id="email_usuario" name="email" >
       </div>
       <div class="container-field">
         <label for="cpf_usuario">CPF:</label>
-        <input type="number" id="cpf_usuario" name="cpf " placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required />
+        <input type="number" id="cpf_usuario" name="cpf " placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required >
       </div>
       <div class="container-field">
         <label for="idade_usuario">Idade:</label>
-        <input type="number" id="idade_usuario" name="idade" />
+        <input type="number" id="idade_usuario" name="idade" >
       </div>
       <div>
         <label for="telefone_usuario">Telefone:</label>
-        <input type="tel" id="telefone_usuario" name="telefone" placeholder="(DDD) 9XXXX-XXXX" pattern="(\d{2}\)\d{5}\-\d{4}" required/>
+        <input type="tel" id="telefone_usuario" name="telefone" placeholder="(DDD) 9XXXX-XXXX" pattern="(\d{2}\)\d{5}\-\d{4}" required>
       </div>
       <div>
         <label for="nascimento_usuario">Data de Nascimento:</label>
-        <input type="date" id="nascimento_usuario" name="nascimento" />
+        <input type="date" id="nascimento_usuario" name="nascimento" >
       </div>
       <div>
         <label for="genero_usuario">Gênero: <label>
@@ -85,12 +85,12 @@
             
         <div>   
             <label for="cep_usuario">CEP:</label>
-            <input type="number" id="cep_usuario" name="cep" placeholder="000.000-00" pattern="\d{3}\.\d{3}\-\d{2}" required/>
+            <input type="number" id="cep_usuario" name="cep" placeholder="000.000-00" pattern="\d{3}\.\d{3}\-\d{2}" required>
         </div>
 
         <div>  
             <label for="logradour_usuario">Tipo de Logradouro:</label>
-            <input type="text" id="c_usuario" name="cep" />
+            <input type="text" id="c_usuario" name="cep" >
         </div>
 
 
@@ -110,21 +110,21 @@
             </div>
             <div>
                 <label for="outro_logradouro">Outro:</label>
-                <input type="text" id="outro_logradouro" name="logradouro[]" />
+                <input type="text" id="outro_logradouro" name="logradouro[]" >
             </div>
         </fieldset>
 
         <div>
             <label for="bairro">Bairro:</label>
-            <input type="text" id="bairro" name="bairro" />
+            <input type="text" id="bairro" name="bairro" >
         </div>
         <div>
             <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" name="cidade" />
+            <input type="text" id="cidade" name="cidade" >
         </div>
         <div>
             <label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado" />
+            <input type="text" id="estado" name="estado" >
         </div>
     </fieldset>
     <div>
@@ -135,9 +135,9 @@
 
       <button>Cadastrar</button>
     </form>
-    </main>
+    </section>
 
     <footer><i>Av. João Naves de Ávila, Santa Mônica, Uberlândia</i></footer>
-  </section>
+  </main>
   </body>
 </html>
