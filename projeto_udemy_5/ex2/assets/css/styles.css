@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+    
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right bottom, rgb(155, 240, 255),rgb(155, 54, 146));
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+
+    background-color: white ;
+    width: 350px;
+    height: 450px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-close{
+    font-size: 22px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+form h1{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+form > div{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 20px;
+    justify-content: stretch;
+    > label{
+        font-size: 18px;
+        font-weight: bold;
+        color: grey;
+        margin-bottom: 5px;
+    }
+    > input{
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    >p{
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(77, 77, 77);
+        >a{
+            text-decoration: none;
+            color: rgb(64, 200, 224);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        >a:hover{
+            color: rgb(31, 154, 175);
+            text-decoration: underline;
+    }
+           
+}
+}
+
+.container-forgot-password{
+    font-size: 16px;
+    color: rgb(60, 60, 255);
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+button{
+    background: linear-gradient(to right, rgb(155, 240, 255),rgb(155, 54, 146));
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button{
+    background: linear-gradient(to right, rgb(155, 240, 255),rgb(155, 54, 146));
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(155, 54, 146), rgb(155, 240, 255));
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

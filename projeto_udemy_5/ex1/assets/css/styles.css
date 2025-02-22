@@ -30,6 +30,13 @@ nav a{
     align-content: space-between;
 } 
 
+nav a:hover{
+    background-color: rgb(83, 83, 253);
+    color: white;
+    border: 1px solid rgb(83, 83, 253);
+    font-weight: bold;
+}
+
 main{
     display: flex;
 
