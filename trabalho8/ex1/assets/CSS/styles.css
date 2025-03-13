@@ -1,0 +1,33 @@
+body {
+  background: #ddd;
+  font-family: "Helveitca Neue", Helvetica, sans-serif;
+  color: #444;
+  line-height: 1.5;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 10%;
+  border-radius: 30px;
+}
+
+h1,
+h2 {
+  color: rgb(140, 76, 8);
+  user-select: none;
+}
+
+section {
+  margin-top: 0px;
+  padding-bottom: 5px;
+  border-top: solid 1px gray;
+}
+
+a:hover {
+
+    color: blueviolet;
+
+}
