@@ -1,55 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina do Leandro</title>
-    <link rel="shortcut icon" href="images/logo1.png" type="image/png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="text-center">
-      <img
-        src="images/logo1.png"
-        alt="logo"
-        height="250"
-        width="250"
-      />
-
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Leandro Marques</title>
+    <link rel="shortcut icon" href="images/logo1.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo1.png" alt="Logo" class="logo">
+                <div class="typing-effect">
+                    <span id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="contato.html" class="active"><i class="fas fa-envelope"></i> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav class="container-navegacao">
-      <a href="index.html">Atividades Desenvolvidas</a>
-      <a href="contato.htmo">Contato</a>
-    </nav>
-
-    <main class="container-contato">
-      <section>
-      <h1 class="text-center">Formas de contato</h1>
-      <article class="contato">
-        <img src="images/linkedin.png" alt="Linkedin" width="50" />
-        <br>
-        <a href="https://www.linkedin.com/in/leandro-marques-b377a6271/">Linkedin</a>
-      </article>
-
-      <article class="contato">
-        <img src="images/git.png" alt="github" width="50" />
-        <br>
-        <a href="https://github.com/LeandroJerse">GitHub</a>
-      </article>
-    </section>
+    <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <h1 class="section-title">Entre em Contato</h1>
+                
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Conecte-se profissionalmente</p>
+                        <a href="https://www.linkedin.com/in/leandro-marques-b377a6271/" target="_blank" class="contact-link">Visitar Perfil</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Veja meus projetos</p>
+                        <a href="https://github.com/LeandroJerse" target="_blank" class="contact-link">Visitar Repositório</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Envie uma mensagem</p>
+                        <button id="email-button" class="contact-link">Mostrar Email</button>
+                        <div id="email-display" class="hidden"></div>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form">
+                    <h3>Ou envie uma mensagem direta</h3>
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </section>
     </main>
 
-    <footer class="container-footer">
-      Leandro Marques &copy; 2025 | &reg; Todos os direitos reservados.
-      <br>
-
-      <a href="https://git.io/typing-svg"
-        ><img
-          src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=25&duration=4000&pause=1000&color=ffffff&center=true&vCenter=true&width=700&lines=Olá+visitante!!;Sou+o+Leandro+Marques;Aqui+estão+meus+trabalhos+Desenvolvidos+em+PPI."
-          alt="Typing SVG"
-      /></a>
-      
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>Leandro Marques &copy; <span id="current-year">2025</span> | Todos os direitos reservados.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/leandro-marques-b377a6271/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/LeandroJerse" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </footer>
-  </body>
+
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
