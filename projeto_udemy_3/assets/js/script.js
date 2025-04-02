@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const emailDisplay = document.getElementById('email-display');
             if (emailDisplay.classList.contains('hidden')) {
                 // You should replace this with your actual email
-                emailDisplay.textContent = 'leandro.marques@example.com';
+                emailDisplay.textContent = 'leandrojerse@gmail.com';
                 emailDisplay.classList.remove('hidden');
                 this.textContent = 'Ocultar Email';
             } else {
